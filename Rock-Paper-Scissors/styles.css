@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: #081b31;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: #081b31;
+    cursor: pointer;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score,
+#draw-score {
+    font-size: 4rem;
+}
+
+
+.msg-container {
+    margin-top: 10rem;
+}
+
+#msg {
+    color: white;
+    background-color: #081b31;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+}
+
+.auto-play,.reset-button {
+    background-color: rgb(226, 154, 10);
+    border: none;
+    color: white;
+    margin-top: 5rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.reset-button{
+    background-color: rgb(145, 38, 239);
+}
+
+.move-icon{
+    margin-top: 3rem;
+    margin-right: 15px;
+}
